@@ -28,7 +28,7 @@ body {
 	background-color: #5F5E5E;
 	width: 120px;
 	opacity: 90%;
-	margin-top: 90px;
+	margin-top: 7vh;
 }
 
 .dropdown-hitbox {
@@ -203,14 +203,6 @@ body {
 	float: left;
 }
 
-.left {
-	margin: auto 5px auto auto;
-	border-radius: 25px;
-	border: 1px solid white;
-	top: 50%;
-	left: 50%;
-}
-
 .tableborder {
 	margin: 0 auto;
 	border-collapse: collapse;
@@ -230,6 +222,21 @@ body {
 	margin: auto auto auto 0px;
 	float: left;
 	height: 40px;
+}
+
+.table1 {
+	margin-bottom: 40px;
+}
+
+.left {
+	text-align: left;
+	float: left;
+}
+
+.right {
+	text-align: right;
+	float: right;
+	margin-right: 10px;
 }
 
 @keyframes menu opening{
